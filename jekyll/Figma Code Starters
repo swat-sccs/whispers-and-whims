@@ -1,0 +1,30 @@
+//Headline Codes
+//index.jsx
+import React from "react";
+import "./style.css";
+
+export const Label = () => {
+  return (
+    <div className="label">
+      <div className="text-wrapper">HEADLINE GOES HERE</div>
+    </div>
+  );
+};
+//style.css
+.label {
+  height: 81px;
+  width: 224px;
+}
+.label .text-wrapper {
+  -webkit-text-stroke: 1px #437dc1;
+  color: #437dc1;
+  font-family: "Italiana-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  top: 0;
+  width: 224px;
+}
