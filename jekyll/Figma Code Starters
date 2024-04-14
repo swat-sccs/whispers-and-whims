@@ -1,3 +1,121 @@
+//TextPP Codes
+//style.css
+.label {
+  height: 108px;
+  width: 369px;
+}
+
+.label .text-wrapper {
+  color: #000000;
+  font-family: "Kantumruy-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  top: 0;
+  width: 369px;
+}
+
+//index.jsx
+import React from "react";
+import "./style.css";
+
+export const Label = () => {
+  return (
+    <div className="label">
+      <p className="text-wrapper">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      </p>
+    </div>
+  );
+};
+
+//TabText Codes (Events, Clubs, etc)
+//style.css
+.label {
+  height: 58px;
+  width: 314px;
+}
+
+.label .text-wrapper {
+  color: #000000;
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 314px;
+}
+
+//index.jsx
+import React from "react";
+import "./style.css";
+
+export const Label = () => {
+  return (
+    <div className="label">
+      <div className="text-wrapper">EVENTS</div>
+    </div>
+  );
+};
+
+//WhisperandWhims Codes
+//style.css
+.label {
+  height: 72px;
+  width: 806px;
+}
+
+.label .WHISPERS-WHIMS {
+  -webkit-text-stroke: 1px #437dc1;
+  color: #437dc1;
+  font-family: "Italiana-Regular", Helvetica;
+  font-size: 74px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 0;
+  white-space: nowrap;
+  width: 806px;
+}
+
+.label .text-wrapper {
+  color: #437dc1;
+  font-family: "Italiana-Regular", Helvetica;
+  font-size: 74px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.label .span {
+  font-family: "Inria Serif-Regular", Helvetica;
+}
+//index.jsx
+import React from "react";
+import "./style.css";
+
+export const Label = () => {
+  return (
+    <div className="label">
+      <p className="WHISPERS-WHIMS">
+        <span className="text-wrapper">WHISPERS </span>
+        <span className="span">&amp;</span>
+        <span className="text-wrapper"> WHIMS</span>
+      </p>
+    </div>
+  );
+};
 //Headline Codes
 //index.jsx
 import React from "react";
